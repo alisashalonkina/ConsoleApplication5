@@ -280,7 +280,7 @@ int main()
     print_allmountains(mountains, 20);
 
     // Запись в бинарный файл
-    cout << "Создание бинарного файла и запись данных" << endl;
+    cout << "\nСоздание бинарного файла и запись данных" << endl;
     save_to_binary_file(mountains, 20, "mountains.bin");
 
     // Чтение из бинарного файла
